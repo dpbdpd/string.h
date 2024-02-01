@@ -1,0 +1,28 @@
+{
+  "configurations": [
+    {
+      "name": "Apple",
+      "type": "cppdbg",
+      "request": "launch",
+      "program": "${workspaceFolder}/src/testing",
+      "args": [],
+      "stopAtEntry": false,
+      "cwd": "${workspaceFolder}/src",
+      "environment": [],
+      "externalConsole": false,
+      "MIMode": "lldb"
+    },
+    {
+      "name": "Ubuntu",
+      "type": "cppdbg",
+      "request": "launch",
+      "program": "${workspaceFolder}/src/testing",
+      "args": [],
+      "stopAtEntry": false,
+      "cwd": "${workspaceFolder}/src",
+      "environment": [],
+      "externalConsole": false,
+      "MIMode": "gdb"
+    }
+  ]
+}
